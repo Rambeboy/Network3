@@ -1,4 +1,4 @@
-# NETWORK3 NODE GUIDE
+## NETWORK3 NODE GUIDE
 
 ![network3](assets/img1.jpg)
 
