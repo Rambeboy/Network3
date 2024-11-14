@@ -24,7 +24,7 @@ This guide will help you set up and run a Network3 node on your server. Follow t
 One-line installation:
 
 ```bash
-wget https://raw.githubusercontent.com/Rambeboy/Network3/main/network3.sh && chmod +x setup.sh && sudo ./setup.sh
+wget https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh && chmod +x setup.sh && sudo ./setup.sh
 ```
 
 ### Using CURL
@@ -32,7 +32,7 @@ wget https://raw.githubusercontent.com/Rambeboy/Network3/main/network3.sh && chm
 One-line installation:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh -o network3.sh&& chmod +x setup.sh && sudo ./setup.sh
+curl -fsSL https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh -o setup.sh && chmod +x setup.sh && sudo ./setup.sh
 ```
 
 ## Node Setup
