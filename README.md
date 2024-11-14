@@ -1,4 +1,6 @@
-# Network3 Node Installation Guide
+# NETWORK3 NODE GUIDE
+
+![network3](assets/img1.jpg)
 
 This guide will help you set up and run a Network3 node on your server. Follow these steps carefully to ensure proper installation and configuration.
 
@@ -22,7 +24,7 @@ This guide will help you set up and run a Network3 node on your server. Follow t
 One-line installation:
 
 ```bash
-wget https://raw.githubusercontent.com/Galkurta/Network3/main/network3.sh && chmod +x network3.sh && sudo ./network3.sh
+wget https://raw.githubusercontent.com/Rambeboy/Network3/main/network3.sh && chmod +x setup.sh && sudo ./setup.sh
 ```
 
 ### Using CURL
@@ -30,7 +32,7 @@ wget https://raw.githubusercontent.com/Galkurta/Network3/main/network3.sh && chm
 One-line installation:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Galkurta/Network3/main/network3.sh -o network3.sh&& chmod +x network3.sh && sudo ./network3.sh
+curl -fsSL https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh -o network3.sh&& chmod +x setup.sh && sudo ./setup.sh
 ```
 
 ## Node Setup
@@ -133,14 +135,6 @@ If you encounter any issues or need assistance:
 
 This script is provided under the MIT license.
 
-## Author
-
-Created by Galkurta  
-GitHub: [https://github.com/Galkurta](https://github.com/Galkurta)
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Disclaimer
 
