@@ -4,6 +4,8 @@
 
 This guide will help you set up and run a Network3 node on your server. Follow these steps carefully to ensure proper installation and configuration.
 
+---
+
 ## Prerequisites
 
 - Ubuntu 20.04 LTS or higher
@@ -12,10 +14,14 @@ This guide will help you set up and run a Network3 node on your server. Follow t
 - Minimum 50GB SSD
 - Open port 8080
 
+---
+
 ## Registration
 
 1. Create an account at [Network3 Registration](https://account.network3.ai/register_page?rc=d21b34ed)
 2. Log in to your account after registration
+
+---
 
 ## Installation Methods
 
@@ -27,6 +33,8 @@ One-line installation:
 wget https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh && chmod +x setup.sh && sudo ./setup.sh
 ```
 
+---
+
 ### Using CURL
 
 One-line installation:
@@ -34,6 +42,8 @@ One-line installation:
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh -o setup.sh && chmod +x setup.sh && sudo ./setup.sh
 ```
+
+---
 
 ## Node Setup
 
@@ -43,6 +53,8 @@ curl -fsSL https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh -o 
 4. Go to the sync link displayed in your terminal
 5. Click the "+" button in the web interface
 6. Paste your API key and click OK
+
+---
 
 ## Menu Options
 
@@ -54,6 +66,8 @@ curl -fsSL https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh -o 
 - Show API Info: Display node API key and sync link
 - Exit: Close the application
 
+---
+
 ## Node Synchronization
 
 1. After installation, go to your sync link: `https://account.network3.ai/main?o=YOUR_SERVER_IP:8080`
@@ -61,7 +75,7 @@ curl -fsSL https://raw.githubusercontent.com/Rambeboy/Network3/main/setup.sh -o 
 3. Paste your API key in the input field
 4. Click OK to synchronize your node
 
-![Node Synchronization](https://i.ibb.co/QjPTgc7/sync.png)
+---
 
 ## Screen Command Usage
 
@@ -84,6 +98,8 @@ screen -S network3
 screen -X -S network3 quit
 ```
 
+---
+
 ## Important Notes
 
 - To detach from the screen session: Press `CTRL+A, D`
@@ -94,6 +110,8 @@ screen -X -S network3 quit
 - Make sure you have either `wget` or `curl` installed on your system
 - Use `sudo apt install wget` or `sudo apt install curl` if needed
 - Always verify the script source before executing
+
+---
 
 ## Troubleshooting
 
@@ -122,6 +140,8 @@ Common issues and solutions:
    chmod +x network3.sh
    ```
 
+---
+
 ## Support
 
 If you encounter any issues or need assistance:
@@ -131,13 +151,19 @@ If you encounter any issues or need assistance:
 - Follow Network3 on Twitter for updates
 - Check GitHub issues for known problems
 
+---
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
+
 ## Disclaimer
 
 This is an unofficial installation guide. Use at your own risk. Always verify scripts before running them on your system.
+
+---
 
 ## Security Recommendations
 
@@ -147,3 +173,5 @@ This is an unofficial installation guide. Use at your own risk. Always verify sc
 4. Monitor your system regularly
 5. Backup your API keys
 6. Never share your private keys
+
+---
