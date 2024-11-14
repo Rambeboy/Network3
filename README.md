@@ -133,8 +133,7 @@ If you encounter any issues or need assistance:
 
 ## License
 
-This script is provided under the MIT license.
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
 
